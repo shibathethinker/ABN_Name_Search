@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`seachbox snapshot 1`] = `
+<React.Fragment>
+  <div
+    className="textBoxContainer"
+    style={
+      Object {
+        "width": undefined,
+      }
+    }
+  >
+    <input
+      className="customTextbox"
+      data-testid="inputText"
+      id="inputText"
+      required={true}
+    />
+    <label
+      className="lbl"
+      name="placeholder_label"
+      onClick={[Function]}
+    />
+    <label
+      className="err"
+      data-testid="inputError"
+      id="inputError"
+    />
+  </div>
+</React.Fragment>
+`;

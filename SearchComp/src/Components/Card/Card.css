@@ -1,0 +1,71 @@
+.cardBox{
+    border-color: #ecf0f1 !important;
+    border-width: 1px;
+    border-style: solid;
+    display: flex;
+    width:90%;
+    border-radius: 6px;
+    box-shadow: 1px 2px #91bfc3;
+    margin: auto;
+    margin-top: 10px;
+    flex-direction: column;
+    font-size:14px;
+    align-items: center;
+    color: #2C3E50;
+    font-family: 'Candara';
+}
+
+.cardBox:hover{
+    transform: scale(1.1);
+    background-color: #ecf0f1;
+}
+
+.cardBox label{
+
+    color:#2C3E50;
+    font-weight: bold;
+    border-radius: 2px;
+
+}
+.cardBox div{
+    margin:2px;
+}
+
+.cardBox h2{
+    width:100%;
+     cursor: pointer;
+
+}
+
+.cardBox:hover h2{
+    text-decoration: underline;
+}
+
+.cardBoxSectionInvisible{
+    display: none;
+}
+
+.cardBoxSectionVisible{
+    
+}
+
+.cardBox .cardBoxSection{
+    display: flex;
+    margin: auto;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -webkit-align-content: center;
+    align-content: center;
+    justify-content: space-between;
+}
+
+
+@media (min-width:640px){
+.cardBox{
+    width:50%
+}
+
+}
+

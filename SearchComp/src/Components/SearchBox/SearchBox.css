@@ -1,0 +1,50 @@
+.customTextbox{
+    width: 100%;
+  border-top:none;
+  border-left:none;
+  border-bottom:solid 2px #2C3E50;
+  font-family: 'Candara' ;
+  height: 25px;
+  font-size:20px;
+}
+
+.customTextbox:focus,.customTextbox:active{
+border-bottom:solid 2px #4CAF50;
+outline:none ;
+}
+
+.customTextbox+label{
+  transition:all .2s ease-out;
+}
+.customTextbox+.lbl{
+position: absolute;
+top:0px;
+left:0px;
+
+font-size: 18px;
+}
+
+.customTextbox:focus+ .lbl, .customTextbox:valid+.lbl{
+    top:-15px;  
+    font-size:10px;
+}
+
+.customTextbox+.lbl_moved{
+position: absolute;
+left:0px;
+top:-15px;
+font-size: 10px;
+}
+
+.textBoxContainer{
+position:relative;
+height:50px;
+top:20px;
+width:50%;
+}
+
+.err{
+  color:#E74C3C;
+  font-size: 14px;
+}
+

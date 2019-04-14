@@ -1,0 +1,23 @@
+
+    .customButton{
+        width: 25%;
+        height: 30px;
+        border-radius: 2px;
+        border-color: none;
+        border: none;
+        box-shadow: 1px 1px #9E9E9E;
+        font-family: 'Candara';
+        color: white;
+        margin-left:5px;
+        margin-bottom: 2px;
+    }
+    .customButton:hover{
+        transform: scale(1.1)
+    }
+
+    @media (min-width:800px){
+.customButton{
+width: 12%;
+}
+}
+

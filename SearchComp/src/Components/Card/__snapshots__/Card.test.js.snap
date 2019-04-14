@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Checking Card Snapshot 1`] = `
+<div
+  className="cardBox"
+>
+  <h2
+    onClick={[Function]}
+  />
+  <div
+    className="cardBoxSectionInvisible"
+  />
+</div>
+`;

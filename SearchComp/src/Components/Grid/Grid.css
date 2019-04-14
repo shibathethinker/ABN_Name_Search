@@ -1,0 +1,16 @@
+.grid{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.notif
+{
+    font-size: 10px;
+    color:#3498DB;
+}
+
+.notif_alert{
+    font-size: 14px;
+    color: red;
+}

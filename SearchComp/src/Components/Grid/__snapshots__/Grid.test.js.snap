@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Check Grid snapshot 1`] = `
+Array [
+  <div
+    className="grid"
+  >
+    <div
+      className="textBoxContainer"
+      style={
+        Object {
+          "width": undefined,
+        }
+      }
+    >
+      <input
+        className="customTextbox"
+        data-testid="inputText"
+        id="inputText"
+        onBlur={[Function]}
+        onChange={[Function]}
+        required={true}
+      />
+      <label
+        className="lbl"
+        name="placeholder_label"
+        onClick={[Function]}
+      >
+        enter name or ABN...
+      </label>
+      <label
+        className="err"
+        data-testid="inputError"
+        id="inputError"
+      >
+        
+      </label>
+    </div>
+    <button
+      className="customButton"
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#F39C12",
+          "width": undefined,
+        }
+      }
+    >
+      Search
+    </button>
+  </div>,
+  <label
+    className="notif"
+  >
+    
+  </label>,
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "column",
+      }
+    }
+  />,
+]
+`;
